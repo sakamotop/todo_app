@@ -9,9 +9,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData.light(), // ライト用テーマ
-      darkTheme: ThemeData.dark(), // ダーク用テーマ
-      themeMode: ThemeMode.system, // モードをシステム設定にする
+      theme: ThemeData.light(),
+      // ライト用テーマ
+      darkTheme: ThemeData.dark(),
+      // ダーク用テーマ
+      themeMode: ThemeMode.system,
+      // モードをシステム設定にする
 
       home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
